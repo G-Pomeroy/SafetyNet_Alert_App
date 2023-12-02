@@ -18,6 +18,8 @@ public class FireStations {
     @OneToMany(mappedBy = "fireStations")
     private List<Person> persons;
 
+
+    //Constructors
     public FireStations(){}
 
     public FireStations(Long fireStationId, String address, String station) {
@@ -26,6 +28,7 @@ public class FireStations {
         this.station = station;
     }
 
+    //Setters and Getters
     public Long getFireStationId() {
         return fireStationId;
     }

@@ -1,6 +1,5 @@
 package com.example.safetynetalertapp.controller;
 
-import com.example.safetynetalertapp.Services.PersonService;
 import com.example.safetynetalertapp.model.Person;
 import com.example.safetynetalertapp.respository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;

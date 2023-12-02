@@ -21,6 +21,7 @@ public class MedicalRecords {
     private List<String> allergies;
 
 
+    //Constructors
     public MedicalRecords(){
     }
 
@@ -31,6 +32,7 @@ public class MedicalRecords {
         this.allergies = allergies;
     }
 
+    //Getters & Setters
     public Long getMedicalId() {
         return medicalId;
     }

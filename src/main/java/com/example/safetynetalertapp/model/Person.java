@@ -47,6 +47,7 @@ public class Person {
         this.fireStations = fireStations;
     }
 
+    //Setters & Getters
     public Long getPersonId() {
         return personId;
     }

@@ -19,8 +19,6 @@ import java.util.List;
 @RequestMapping("/personInfo")
 public class PersonController {
 
-    Logger logger = LoggerFactory.getLogger(PersonController.class);
-
     @Autowired
     private PersonRepository personRepository;
 
